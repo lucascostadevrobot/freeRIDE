@@ -1,0 +1,2 @@
+rootProject.name = "CadeIFF"
+include ':app'

@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">freeRIDE</string>
+    <string name="title_activity_maps">Map</string>
+
+    <!--String para Tela Inicial MaiActiity-->
+    <string name="btn_login">Entrar</string>
+    <string name="text_freeride_tela_inicial">Uma carona na palma da sua mão!</string>
+
+    <!--String para Botão da ActionBar CallBack-->
+    <string name="titulo_cadastro">Cadastrar uma conta</string>
+    <string name="titulo_login">Acessar minha conta</string>
+
+    <!--Strings para Tela de Login-->
+    <string name="hint_email">E-mail</string>
+    <string name="hint_senha">Senha</string>
+    <string name="btn_tela_login">Acessar</string>
+
+    <!--Strings para Tela de Cadastro-->
+    <string name="hint_cadastro_nome">Nome Completo</string>
+    <string name="hint_cadastro_email">Seu melhor e-mail</string>
+    <string name="hint_tela_cadastro_senha">Senha</string>
+    <string name="text_tela_cadastro_usuario">Usuário</string>
+    <string name="text_tela_cadastro_administrador">Motorista</string>
+    <string name="text_tela_cadastro">Passageiro</string>
+    <string name="btn_tela_cadastro">Cadastrar</string>
+
+    <!--Strings para tela do Passageiro-->
+    <string name="switch_cadastro_opcao"></string>
+    <string name="title_activity_passageiro">PassageiroActivity</string>
+
+
+    <!-- Strings usadas nos fragments referent ao ButtonNavigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Próximo</string>
+    <string name="previous">Anterior</string>
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_noticias_ride">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">News Brasil</string>
+    <string name="title_notifications">News World</string>
+
+
+    <!--string name="btn_cad">Cadastrar</string-->
+    <!--string name="logoiff">logoiff</string-->
+
+
+</resources>

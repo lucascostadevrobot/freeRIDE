@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "411397954623",
+    "project_id": "black-copilot-318615",
+    "storage_bucket": "black-copilot-318615.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:411397954623:android:032948a039af819562ec8a",
+        "android_client_info": {
+          "package_name": "lucascostadev.cadeiff.com"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "411397954623-t2vu9iguljmpui1fd26n85coqn5pcsec.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAPlXharp8X5NDp5WY1FC_RPNwOpl2IX0Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "411397954623-t2vu9iguljmpui1fd26n85coqn5pcsec.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

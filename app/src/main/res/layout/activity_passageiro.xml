@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.PassageiroActivity">
+
+
+  <!--Trabalhando com Material Toolbar e AppBar-->
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/Theme.CadeIFF.AppBarOverlay">
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/Theme.CadeIFF.PopupOverlay" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+    <!--Fim Trabalhando com Material Toolbar e AppBar-->
+
+    <!--Incluindo nosso content passageiro dentro da Activity Passageiro-->
+    <include layout="@layout/content_passageiro" />
+    <!--Fim Incluindo nosso content passageiro dentro da Activity Passageiro-->
+
+       <!--Trabalhando com o Campo de Pesquisa dentro do LinearLayout-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginRight="16dp"
+        android:background="@android:color/white"
+        android:orientation="vertical"
+        android:padding="8dp">
+        <!-- Fim Trabalhando com o Campo de Pesquisa dentro do LinearLayout-->
+
+
+        <EditText
+            android:id="@+id/editMeuLocal"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@android:color/white"
+            android:drawableLeft="@drawable/circulo_verde"
+            android:drawablePadding="6dp"
+            android:ems="10"
+            android:enabled="false"
+            android:hint="Meu local"
+            android:inputType="textPersonName"
+            android:textColor="@android:color/darker_gray"
+            android:textColorHint="@android:color/darker_gray"
+            android:textSize="18sp" />
+
+
+        <EditText
+            android:id="@+id/editMeuDestino"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@android:color/white"
+            android:drawableLeft="@drawable/circulo_verde"
+            android:drawableTint="@android:color/darker_gray"
+            android:drawablePadding="6dp"
+            android:ems="10"
+            android:enabled="false"
+            android:hint="Para onde vamos?"
+            android:inputType="textPersonName"
+            android:textColor="@android:color/darker_gray"
+            android:textColorHint="@android:color/darker_gray"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:text="Chamar sua carona" />
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout >
+
+
+
+
+
+
